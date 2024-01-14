@@ -88,13 +88,13 @@ const Landing = () => {
       >
         <p>{texts[count]}</p>
       </div>
-      <div className="absolute flex flex-row  tracking-wide top-[15rem] text-[0.8rem] gap-4 left-[10%] sm:left-auto sm:right-[15%] sm:top-[18rem] sm:text-[0.9rem] md:top-[22rem] md:text-[1rem] xl:gap-6 xl:rotate-90 xl:top-[16rem] xl:right-[15%]">
-        <span>software-engineer</span>
-        <span>frontend-developer</span>
-        <span>fullstack-developer</span>
-      </div>
-      <div className="absolute h-[25rem] sm:h-[30rem] w-[100vw] top-[18rem] sm:top-[20rem] md:top-[25rem] xl:h-[100%] xl:w-[30%] xl:top-0 xl:right-0 z-50 overflow-hidden rounded">
-        <div className="bg-landing-image h-full w-full"></div>
+      <div className="absolute h-[25rem] sm:h-[30rem] w-[100vw] top-[18rem] sm:top-[20rem] md:top-[25rem] xl:h-[100%] xl:w-[35%] xl:top-0 xl:right-0 z-50 overflow-hidden rounded">
+        <div className="absolute flex flex-row  tracking-wide text-[0.8rem] gap-5 md:text-[1.2rem] md:gap-14 top-[0rem] left-[1rem] md:left-[5rem] md:w-[60rem] xl:w-[33rem] xl:text-[1rem] xl:gap-10 xl:top-[16.5rem] xl:left-[-14.5rem] xl:rotate-90 text-black z-50 overflow-visible">
+          <span>software-engineer</span>
+          <span>frontend-developer</span>
+          <span>fullstack-developer</span>
+        </div>
+        <div className="bg-landing-image h-[90%] bottom-0 w-[100%] xl:bottom-auto xl:h-full xl:w-[90%] right-0 absolute"></div>
       </div>
     </div>
   );
