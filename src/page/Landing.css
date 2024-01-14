@@ -1,0 +1,31 @@
+.lineUp {
+  animation: 4s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+}
+
+.bg-landing-image {
+  background-image: url("../../public/landing5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

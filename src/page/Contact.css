@@ -1,0 +1,21 @@
+.link-container {
+  --bg-hover-width: 100%;
+}
+
+.link-container .styled-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0; /* Initially no width */
+  height: 100%;
+  background-color: #000; /* Or any color you prefer */
+  transition: width 0.3s ease;
+  z-index: -1;
+  transform: skewX(-20deg); /* Adjust the skew angle as needed */
+  transform-origin: left;
+}
+
+.link-container .styled-link:hover::before {
+  width: var(--bg-hover-width); /* Full width on hover */
+}

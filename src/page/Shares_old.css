@@ -1,0 +1,25 @@
+/* .swiper {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 32vw;
+  height: 32vw;
+}
+
+.swiper-slide .slide-image {
+  -webkit-box-reflect: below -40px linear-gradient(transparent, transparent, #0004);
+  transition: all 0.5s ease-in-out;
+}
+
+.swiper-slide .slide-image:hover {
+  -webkit-box-reflect: below -40px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0));
+}
+
+/* .swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background: transparent;
+} */ */
