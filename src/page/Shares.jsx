@@ -10,6 +10,9 @@ import img2 from "../../public/img2.jpg";
 import img3 from "../../public/img3.jpg";
 import img4 from "../../public/img4.jpg";
 import img5 from "../../public/img5.jpg";
+import article_1 from "../../public/sperm_article.jpg";
+import book_1 from "../../public/remember_book.jpg";
+import book_2 from "../../public/freak_book.jpg";
 
 import { useState } from "react";
 
@@ -63,7 +66,7 @@ const Shares = () => {
   const parallaxOpacity = 0.5;
 
   return (
-    <div id="shares">
+    <div className="mb-[3rem]" id="shares">
       <div className=" w-[100vw] flex flex-row justify-end text-[3.5rem] pr-[2rem] leading-[4rem] mb-[2rem] sm:leading-normal sm:mb-[0rem] text-[4rem] top-[2.5rem] sm:text-[5rem] lg:text-[7rem] 5rem] xl:text-[9.5rem] 2xl:text-[10rem] tracking-tighter text-[#111]">
         <div className="relative text-right w-[100%] sm:w-[75%] ">
           <motion.div
@@ -80,25 +83,26 @@ const Shares = () => {
       </div>
       <Swiper {...HeroSliderConfigs} getSwiper={setParallaxSwiper}>
         {/* 1 */}
-        <div className="hero-slide sm:h-[100vh] sm:max-h-[700px] mb-[3rem]">
+        <div className="hero-slide sm:h-[100vh] max-h-[1100px] pb-[2rem] md:pb-[0rem]">
           <div
-            className="h-[50vh] sm:h-[50%] w-[100%] md:h-auto md:w-[50%] flex flex-col justify-center"
+            className="h-[50vh] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center"
             data-swiper-parallax={parallaxAmount}
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <img
-              src="https://images.pexels.com/photos/6193936/pexels-photo-6193936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src={book_1}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] pr-[2rem]">
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
             <a
               target="_blank"
+              rel="noreferrer"
               className="hover:text-[#559602]"
               href="https://www.goodreads.com/en/book/show/54895704"
             >
-              REMEMBER - Lisa Genova
+              Remember - Lisa Genova
             </a>
             <div className="flex flex-row text-[0.8rem] gap-[1rem]">
               <div className="p-[0.5rem] bg-[#ddd] rounded-xl">book</div>
@@ -108,16 +112,12 @@ const Shares = () => {
               <div className="p-[0.5rem] bg-[#ddd] rounded-xl">memory</div>
             </div>
             <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem] pb-[1rem] border-black border-b-[1px]">
-              Great book about how memory works and some great tips to improve
-              the way you remember things. It covers many topics like paying
-              attention, sleeping, forgetting mechanism, and many more. This is
-              not a heavy theory book; Lisa Genova has done a great job of
-              explaining the concepts with the combination of specialized
-              knowledge and real-life examples. Her approach is both accessible
-              and thorough, making the science behind memory understandable for
-              all readers. Genova delves into how memory is intricately linked
-              to our senses and emotions, providing fascinating insights into
-              how we can harness this understanding for better recall. She also
+              It covers many topics like paying attention, sleeping, forgetting
+              mechanism, and many more. Her approach is both accessible and
+              thorough, making the science behind memory understandable for all
+              readers. Genova delves into how memory is intricately linked to
+              our senses and emotions, providing fascinating insights into how
+              we can harness this understanding for better recall. She also
               debunks common myths about memory loss and aging, offering a
               hopeful perspective on maintaining cognitive health. Whether
               you&apos;re interested in the science of memory or seeking ways to
@@ -155,26 +155,32 @@ const Shares = () => {
             </div>
           </div>
         </div>
-        <div className="hero-slide sm:h-[100vh] sm:max-h-[700px] mb-[3rem]">
+        <div className="hero-slide sm:h-[100vh] max-h-[1100px] pb-[2rem] md:pb-[0rem]">
           <div
-            className="h-[50vh] sm:h-[50%] w-[100%] md:h-auto md:w-[50%] flex flex-col justify-center"
+            className="h-[50vh] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center"
             data-swiper-parallax={parallaxAmount}
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <img
-              src={image1}
+              src={article_1}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] pr-[2rem]">
-            <div>REMEMBER - Lisa Genova</div>
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%]  xl:w-[50%] pr-[2rem]">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[#559602]"
+              href="https://www.wired.com/story/sperm-death-sex-bioethics-conception/"
+            >
+              Let People Collect Sperm From the Dead - Catriona Morton
+            </a>
             <div className="flex flex-row text-[0.8rem] gap-[1rem]">
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">book</div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">
-                neuroscience
-              </div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">memory</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">article</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">WIRED</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">bioethics</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">medical</div>
             </div>
             <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem] pb-[1rem] border-black border-b-[1px]">
               The article discusses the ethical dilemmas of postmortem sperm
@@ -219,44 +225,46 @@ const Shares = () => {
             </div>
           </div>
         </div>
-        <div className="hero-slide sm:h-[100vh] sm:max-h-[700px] mb-[3rem]">
+        <div className="hero-slide sm:h-[100vh] max-h-[1100px] pb-[2rem] md:pb-[0rem]">
           <div
-            className="h-[50vh] sm:h-[50%] w-[100%] md:h-auto md:w-[50%] flex flex-col justify-center"
+            className="h-[50vh] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center"
             data-swiper-parallax={parallaxAmount}
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <img
-              src={image1}
+              src={book_2}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] pr-[2rem]">
-            <div>REMEMBER - Lisa Genova</div>
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%]  xl:w-[50%] pr-[2rem]">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[#559602]"
+              href="https://quickread.com/book-summary/think-like-a-freak-534"
+            >
+              Think Like A Freak - Steven D. Levitt & Stephen J. Dubner
+            </a>
             <div className="flex flex-row text-[0.8rem] gap-[1rem]">
               <div className="p-[0.5rem] bg-[#ddd] rounded-xl">book</div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">
-                neuroscience
-              </div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">memory</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">economics</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">psychology</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">science</div>
             </div>
             <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem] pb-[1rem] border-black border-b-[1px]">
-              Great book about how memory works and some great tips to improve
-              the way you remember things. It covers many topics like paying
-              attention, sleeping, forgetting mechanism, and many more. This is
-              not a heavy theory book; Lisa Genova has done a great job of
-              explaining the concepts with the combination of specialized
-              knowledge and real-life examples. Her approach is both accessible
-              and thorough, making the science behind memory understandable for
-              all readers. Genova delves into how memory is intricately linked
-              to our senses and emotions, providing fascinating insights into
-              how we can harness this understanding for better recall. She also
-              debunks common myths about memory loss and aging, offering a
-              hopeful perspective on maintaining cognitive health. Whether
-              you&apos;re interested in the science of memory or seeking ways to
-              improve your own memory, &apos;Remember&apos; is a compelling read
-              that bridges the gap between complex neurological concepts and
-              everyday experiences.
+              In &apos;Think Like a Freak,&apos; authors Steven D. Levitt and
+              Stephen J. Dubner continue their exploration of unconventional
+              problem-solving, building on the principles established in their
+              &apos;Freakonomics&apos; series. They encourage readers to embrace
+              a new mindset, challenging the status quo, acknowledging the power
+              of admitting ignorance, and adopting a child-like curiosity. The
+              book emphasizes the significance of understanding incentives,
+              leveraging data effectively, and applying simplicity in addressing
+              complex issues. It&apos;s a guide for readers to develop a deeper
+              understanding of the world by rethinking their approach to
+              problem-solving and decision-making, advocating a unique
+              perspective on everyday challenges and global issues.
             </div>
             {/* <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
               <div className="flex justify-center items-center gap-1">

@@ -28,8 +28,8 @@ const Ask = () => {
       >
         <div className="h-[80%] flex flex-col items-center mt-[3rem] mx-[2rem]">
           <div className="uppercase text-[0.7rem] font-['Satoshi-bold'] text-center">
-            This is the question or a statement and you can put your thought
-            here
+            How would humanity change if we discovered intelligent life beyond
+            Earth?
           </div>
           <textarea
             ref={textareaRef}

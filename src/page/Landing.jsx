@@ -85,12 +85,12 @@ const Landing = () => {
       <div
         id="text-animate"
         ref={textRef}
-        className="lineUp absolute w-[18em] font-['Satoshi-light'] sm:w-[25rem] md:w-[40rem] xl:w-[35rem] left-[3rem] top-[48rem] sm:top-[53rem] md:top-[57rem] xl:top-[70vh] xl:left-[20vw] text-[0.8rem] md:text-[1rem] tracking-widest leading-normal text-center"
+        className="lineUp absolute w-[18em] font-['Satoshi-light'] sm:w-[25rem] md:w-[40rem] xl:w-[35rem] left-[3rem] top-[48rem] sm:top-[53rem] md:top-[57rem] xl:top-[70vh] xl:left-[20vw] text-[1rem] md:text-[1rem] tracking-widest leading-normal text-center"
       >
         <p>{texts[count]}</p>
       </div>
-      <div className="absolute h-[25rem] sm:h-[30rem] w-[100vw] top-[18rem] sm:top-[20rem] md:top-[25rem] xl:h-[100%] xl:w-[35%] xl:top-0 xl:right-0 z-50 overflow-hidden rounded">
-        <div className="absolute flex flex-row  tracking-wide text-[0.8rem] gap-5 md:text-[1.2rem] md:gap-14 top-[0rem] left-[1rem] md:left-[5rem] md:w-[60rem] xl:w-[33rem] xl:text-[1rem] xl:gap-10 xl:top-[16.5rem] xl:left-[-14.5rem] xl:rotate-90 text-black z-50 overflow-visible">
+      <div className="absolute h-[25rem] sm:h-[30rem] w-[100vw] top-[18rem] sm:top-[20rem] md:top-[25rem] xl:h-[100%] xl:w-[38%] xl:top-0 xl:right-0 z-50 overflow-hidden rounded">
+        <div className="absolute flex flex-row  tracking-wide text-[0.8rem] gap-5 md:text-[1.2rem] md:gap-14 top-[0rem] left-[1rem] md:left-[5rem] md:w-[60rem] xl:w-[40rem] xl:text-[1.2rem] xl:gap-10 xl:top-[20rem] xl:left-[-17.5rem] xl:rotate-90 text-black z-50 overflow-visible">
           <span>software-engineer</span>
           <span>frontend-developer</span>
           <span>fullstack-developer</span>
