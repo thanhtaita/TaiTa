@@ -62,6 +62,9 @@ const Projects = () => {
               individuals, families, and groups. Your go-to platform for
               engaging hunts.
             </span>
+            <span className="text-[0.6rem] sm:text-[0.8rem]">
+              ( under development )
+            </span>
             <a
               href="https://play-scavenger-hunt.netlify.app/"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
@@ -139,18 +142,20 @@ const Projects = () => {
         >
           <div className="flex flex-col justify-center items-center gap-4 font-['Satoshi-light'] w-[80%] z-40">
             <span className="font-['Satoshi-bold']  text-[1rem] sm:text-[1.5rem]">
-              Study Spot
+              Mindmove
             </span>
             <span className="text-center text-[0.7rem] sm:text-[1rem]">
-              an automated grading platform, uses ChatGPT to evaluate
-              assignments, matching them against rubrics to grade and provide
-              detailed feedback on students&apos; strengths and weaknesses.
+              an online platform designed to serve as a hub for a dancing
+              academy. It provides individuals with the opportunity to register
+              for dancing classes and workshops. A game is also included to
+              demonstrate a learning technique, which boosts the website&apos;s
+              interactivity.
             </span>
             <a
-              href="https://studyspot-pi.vercel.app/"
+              href="https://github.com/thanhtaita/MindMove"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
-              Visit Site
+              Visit Github
             </a>
           </div>
         </div>
@@ -160,15 +165,15 @@ const Projects = () => {
         >
           <div className="flex flex-col justify-center items-center gap-4 font-['Satoshi-light'] w-[80%] z-40">
             <span className="font-['Satoshi-bold']  text-[1rem] sm:text-[1.5rem]">
-              Study Spot
+              Ikigai
             </span>
             <span className="text-center text-[0.7rem] sm:text-[1rem]">
-              an automated grading platform, uses ChatGPT to evaluate
-              assignments, matching them against rubrics to grade and provide
-              detailed feedback on students&apos; strengths and weaknesses.
+              This website presents to viewers Ikigai, an ancient Japanese
+              philosophy that helps shape the Japanese people&apos;s ideology in
+              terms of having a complete life with the awareness of presence.
             </span>
             <a
-              href="https://studyspot-pi.vercel.app/"
+              href="https://thanhtaita.github.io/Ikigai/"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Site
@@ -181,18 +186,19 @@ const Projects = () => {
         >
           <div className="flex flex-col justify-center items-center gap-4 font-['Satoshi-light'] w-[80%] z-40">
             <span className="font-['Satoshi-bold']  text-[1rem] sm:text-[1.5rem]">
-              Study Spot
+              Chicago Crash Visuals
             </span>
             <span className="text-center text-[0.7rem] sm:text-[1rem]">
-              an automated grading platform, uses ChatGPT to evaluate
-              assignments, matching them against rubrics to grade and provide
-              detailed feedback on students&apos; strengths and weaknesses.
+              {" "}
+              This webpage shows some visualizations of the Chicago crash data.
+              Some visualizations are interactive, allowing users to see the
+              correlation between different attributes of the data.
             </span>
             <a
-              href="https://studyspot-pi.vercel.app/"
+              href="https://github.com/thanhtaita/CrashVisualization/"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
-              Visit Site
+              Visit Github
             </a>
           </div>
         </div>
@@ -202,18 +208,22 @@ const Projects = () => {
         >
           <div className="flex flex-col justify-center items-center gap-4 font-['Satoshi-light'] w-[80%] z-40">
             <span className="font-['Satoshi-bold']  text-[1rem] sm:text-[1.5rem]">
-              Study Spot
+              theUni
             </span>
             <span className="text-center text-[0.7rem] sm:text-[1rem]">
-              an automated grading platform, uses ChatGPT to evaluate
-              assignments, matching them against rubrics to grade and provide
-              detailed feedback on students&apos; strengths and weaknesses.
+              A platform for students to post their public schedule to find
+              study buddies. Students who don&apos;t know each other still can
+              work together. This helps build connections in class as well as on
+              campus
+            </span>
+            <span className="text-[0.6rem] sm:text-[0.8rem]">
+              ( under development )
             </span>
             <a
-              href="https://studyspot-pi.vercel.app/"
+              href="https://github.com/thanhtaita/theUni/"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
-              Visit Site
+              Visit Github
             </a>
           </div>
         </div>

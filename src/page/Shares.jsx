@@ -87,24 +87,45 @@ const Shares = () => {
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <img
-              src={image1}
+              src="https://images.pexels.com/photos/6193936/pexels-photo-6193936.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] xl:-mt-[10%] pr-[2rem]">
-            <div>This is the title</div>
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] pr-[2rem]">
+            <a
+              target="_blank"
+              className="hover:text-[#559602]"
+              href="https://www.goodreads.com/en/book/show/54895704"
+            >
+              REMEMBER - Lisa Genova
+            </a>
             <div className="flex flex-row text-[0.8rem] gap-[1rem]">
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">technology</div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">business</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">book</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">
+                neuroscience
+              </div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">memory</div>
             </div>
-            <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              tempora excepturi! Deserunt, a quas et, necessitatibus iusto rerum
-              veniam impedit praesentium distinctio nisi reiciendis laboriosam,
-              asperiores porro esse quibusdam quis.
+            <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem] pb-[1rem] border-black border-b-[1px]">
+              Great book about how memory works and some great tips to improve
+              the way you remember things. It covers many topics like paying
+              attention, sleeping, forgetting mechanism, and many more. This is
+              not a heavy theory book; Lisa Genova has done a great job of
+              explaining the concepts with the combination of specialized
+              knowledge and real-life examples. Her approach is both accessible
+              and thorough, making the science behind memory understandable for
+              all readers. Genova delves into how memory is intricately linked
+              to our senses and emotions, providing fascinating insights into
+              how we can harness this understanding for better recall. She also
+              debunks common myths about memory loss and aging, offering a
+              hopeful perspective on maintaining cognitive health. Whether
+              you&apos;re interested in the science of memory or seeking ways to
+              improve your own memory, &apos;Remember&apos; is a compelling read
+              that bridges the gap between complex neurological concepts and
+              everyday experiences.
             </div>
-            <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
+            {/* <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
               <div className="flex justify-center items-center gap-1">
                 <AiOutlineLike color="#111" size={20} />
                 <span className="text-[0.6rem] xl:text-[0.8rem]">Like </span>
@@ -126,39 +147,49 @@ const Shares = () => {
                   30
                 </span>
               </div>
-            </div>
-            <div className="flex flex-row justify-end mt-[2rem]">
+            </div> */}
+            <div className="flex flex-row justify-end">
               <span className="text-[0.7rem] xl:text-[0.8rem]">
-                Posted date: 15/10/2024
+                Posted date: 01/14/2024
               </span>
             </div>
           </div>
         </div>
-        <div className="hero-slide sm:h-[100vh] sm:max-h-[700px]">
+        <div className="hero-slide sm:h-[100vh] sm:max-h-[700px] mb-[3rem]">
           <div
             className="h-[50vh] sm:h-[50%] w-[100%] md:h-auto md:w-[50%] flex flex-col justify-center"
             data-swiper-parallax={parallaxAmount}
             data-swiper-parallax-opacity={parallaxOpacity}
           >
             <img
-              src={image2}
+              src={image1}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] xl:-mt-[10%] pr-[2rem]">
-            <div>This is the title</div>
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] pr-[2rem]">
+            <div>REMEMBER - Lisa Genova</div>
             <div className="flex flex-row text-[0.8rem] gap-[1rem]">
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">technology</div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">business</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">book</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">
+                neuroscience
+              </div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">memory</div>
             </div>
-            <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              tempora excepturi! Deserunt, a quas et, necessitatibus iusto rerum
-              veniam impedit praesentium distinctio nisi reiciendis laboriosam,
-              asperiores porro esse quibusdam quis.
+            <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem] pb-[1rem] border-black border-b-[1px]">
+              The article discusses the ethical dilemmas of postmortem sperm
+              retrieval (PMSR), a process where sperm is collected from deceased
+              males for conception. It highlights a case where a fiancée intends
+              to use her late partner&apos;s sperm for IVF, raising questions
+              about consent and the ethics of posthumous parenthood. The
+              American Society for Reproductive Medicine&apos;s guidelines on
+              PMSR emphasize the need for clear consent, but obtaining explicit
+              permission is rare. The article examines diverse opinions on the
+              subject, including the moral considerations of fatherless
+              children, the rights of grieving individuals, and the ethical
+              implications of such decisions.
             </div>
-            <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
+            {/* <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
               <div className="flex justify-center items-center gap-1">
                 <AiOutlineLike color="#111" size={20} />
                 <span className="text-[0.6rem] xl:text-[0.8rem]">Like </span>
@@ -180,17 +211,17 @@ const Shares = () => {
                   30
                 </span>
               </div>
-            </div>
-            <div className="flex flex-row justify-end mt-[2rem]">
+            </div> */}
+            <div className="flex flex-row justify-end">
               <span className="text-[0.7rem] xl:text-[0.8rem]">
-                Posted date: 15/10/2024
+                Posted date: 01/02/2024
               </span>
             </div>
           </div>
         </div>
-        <div className="hero-slide  sm:h-[100vh] sm:max-h-[700px]">
+        <div className="hero-slide sm:h-[100vh] sm:max-h-[700px] mb-[3rem]">
           <div
-            className="h-[50vh] sm:h-[50%]  w-[100%] md:h-auto md:w-[50%] flex flex-col justify-center"
+            className="h-[50vh] sm:h-[50%] w-[100%] md:h-auto md:w-[50%] flex flex-col justify-center"
             data-swiper-parallax={parallaxAmount}
             data-swiper-parallax-opacity={parallaxOpacity}
           >
@@ -200,19 +231,34 @@ const Shares = () => {
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] xl:-mt-[10%] pr-[2rem]">
-            <div>This is the title</div>
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[70%] xl:w-[50%] pr-[2rem]">
+            <div>REMEMBER - Lisa Genova</div>
             <div className="flex flex-row text-[0.8rem] gap-[1rem]">
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">technology</div>
-              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">business</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">book</div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">
+                neuroscience
+              </div>
+              <div className="p-[0.5rem] bg-[#ddd] rounded-xl">memory</div>
             </div>
-            <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              tempora excepturi! Deserunt, a quas et, necessitatibus iusto rerum
-              veniam impedit praesentium distinctio nisi reiciendis laboriosam,
-              asperiores porro esse quibusdam quis.
+            <div className="text-[0.8rem] tracking-wide font-['Satoshi-regular'] mt-[1rem] leading-[1.5rem] pb-[1rem] border-black border-b-[1px]">
+              Great book about how memory works and some great tips to improve
+              the way you remember things. It covers many topics like paying
+              attention, sleeping, forgetting mechanism, and many more. This is
+              not a heavy theory book; Lisa Genova has done a great job of
+              explaining the concepts with the combination of specialized
+              knowledge and real-life examples. Her approach is both accessible
+              and thorough, making the science behind memory understandable for
+              all readers. Genova delves into how memory is intricately linked
+              to our senses and emotions, providing fascinating insights into
+              how we can harness this understanding for better recall. She also
+              debunks common myths about memory loss and aging, offering a
+              hopeful perspective on maintaining cognitive health. Whether
+              you&apos;re interested in the science of memory or seeking ways to
+              improve your own memory, &apos;Remember&apos; is a compelling read
+              that bridges the gap between complex neurological concepts and
+              everyday experiences.
             </div>
-            <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
+            {/* <div className="flex flex-row justify-between border-y border-1 border-[#aaa] font-['Satoshi-regular'] py-[0.5rem] px-[1rem] my-[1rem]">
               <div className="flex justify-center items-center gap-1">
                 <AiOutlineLike color="#111" size={20} />
                 <span className="text-[0.6rem] xl:text-[0.8rem]">Like </span>
@@ -234,10 +280,10 @@ const Shares = () => {
                   30
                 </span>
               </div>
-            </div>
-            <div className="flex flex-row justify-end mt-[2rem]">
+            </div> */}
+            <div className="flex flex-row justify-end">
               <span className="text-[0.7rem] xl:text-[0.8rem]">
-                Posted date: 15/10/2024
+                Posted date: 01/14/2024
               </span>
             </div>
           </div>

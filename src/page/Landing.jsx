@@ -1,11 +1,11 @@
 import "./Landing.css";
 import { useState, useEffect, useRef } from "react";
 const texts = [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
-  "in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  "tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla",
-  "pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  "minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui",
+  "Hi, there! My name is Tai and I am a software engineer based in Chicago, Illinois. I'm currently a senior at the University of Illinois at Chicago.",
+  "Aware of the transformative power of technology and determined to make a difference in the world, I am passionate about creating software that enhances educational equality.",
+  "I'm also aware of the importance of understanding inner-self to know what I want, and how I contribute to this world.",
+  "I think many of us would agree that we live in a world where we're constantly running, changing, and adapting to new challenges, often without recognizing our true desires.",
+  "I believe that investing the effort to understand ourselves is immensely worthwhile, and I'm on my way to make it easier for everybody to do so.",
 ];
 
 const Landing = () => {
@@ -14,13 +14,14 @@ const Landing = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
+      console.log("interval after 4 seconds");
       const textElement = document.getElementById("text-animate");
       textElement.classList.add("hidden");
       textElement.classList.remove("lineUp");
       setCount((prevCount) => (prevCount + 1) % texts.length);
       textElement.classList.remove("hidden");
       textElement.classList.add("lineUp");
-    }, 4000); // Match this duration with your animation duration
+    }, 6000); // Match this duration with your animation duration
     return () => clearInterval(interval);
   }, []);
 

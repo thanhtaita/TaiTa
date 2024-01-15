@@ -1,5 +1,5 @@
 .lineUp {
-  animation: 4s anim-lineUp ease-out infinite;
+  animation: 6s anim-lineUp ease-out infinite;
 }
 @keyframes anim-lineUp {
   0% {
