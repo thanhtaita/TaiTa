@@ -26,7 +26,7 @@ const Contact = () => {
       <motion.div
         initial="offscreen"
         whileInView="onscreen"
-        viewport={{ once: false, amount: 0.8 }}
+        viewport={{ once: false, amount: 0.5 }}
       >
         <motion.div
           variants={ContactVariants}

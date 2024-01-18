@@ -53,7 +53,7 @@ const Shares = () => {
   const parallaxOpacity = 0.5;
 
   return (
-    <div className="mb-[3rem]" id="shares">
+    <div className="mt-[4rem] sm:mt-[0rem] mb-[3rem]" id="shares">
       <div className=" w-[100vw] flex flex-row justify-end text-[3.5rem] pr-[2rem] leading-[4rem] mb-[2rem] sm:leading-normal sm:mb-[0rem] text-[4rem] top-[2.5rem] sm:text-[5rem] lg:text-[7rem] 5rem] xl:text-[9.5rem] 2xl:text-[10rem] tracking-tighter text-[#111]">
         <div className="relative text-right w-[100%] sm:w-[75%] ">
           <motion.div
