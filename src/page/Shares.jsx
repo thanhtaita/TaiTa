@@ -5,14 +5,9 @@ import { FaCommentAlt, FaRegCommentAlt } from "react-icons/fa";
 import { TbShare3 } from "react-icons/tb";
 import { motion } from "framer-motion";
 
-import img1 from "../../public/img_placeholder.jpeg";
-import img2 from "../../public/img2.jpg";
-import img3 from "../../public/img3.jpg";
-import img4 from "../../public/img4.jpg";
-import img5 from "../../public/img5.jpg";
-import article_1 from "../../public/sperm_article.jpg";
-import book_1 from "../../public/remember_book.jpg";
-import book_2 from "../../public/freak_book.jpg";
+import article_1 from "../../public/sperm_article1.webp";
+import book_1 from "../../public/remember_book1.webp";
+import book_2 from "../../public/freak_book1.webp";
 
 import { useState } from "react";
 
@@ -39,14 +34,6 @@ const SharesVariants = {
     },
   },
 };
-
-//Images
-const image1 =
-  "https://images.unsplash.com/photo-1587613990051-1b291c1a7080?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80";
-const image2 =
-  "https://images.unsplash.com/photo-1587613756197-11742e6b42ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80";
-// const image3 =
-//   "https://images.unsplash.com/flagged/photo-1566447443462-bbd3024c9439?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80";
 
 //slider config options
 

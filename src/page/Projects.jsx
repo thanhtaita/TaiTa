@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import "./Projects.css";
-import img1 from "../../public/scavengerhunt1.jpg";
-import img2 from "../../public/healthsystem.png";
-import img3 from "../../public/musicrecommendation.jpg";
-import img4 from "../../public/studyspot.jpg";
-import img5 from "../../public/mindmove.jpg";
-import img6 from "../../public/ikigai.jpg";
-import img7 from "../../public/crashvisuals.jpg";
-import img8 from "../../public/theUni.jpg";
+import img1 from "../../public/scavengerhunt11.webp";
+import img2 from "../../public/healthsystem12.webp";
+import img3 from "../../public/musicrecommendation12.webp";
+import img4 from "../../public/studyspot12.webp";
+import img5 from "../../public/mindmove12.webp";
+import img6 from "../../public/ikigai12.webp";
+import img7 from "../../public/crashvisuals12.webp";
+import img8 from "../../public/theUni12.webp";
 
 const ProjectVariants = {
   offscreen: {
