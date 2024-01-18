@@ -11,7 +11,6 @@ function App() {
       <Landing />
       <Projects />
       <Shares />
-
       <Contact />
     </div>
   );

@@ -1,5 +1,4 @@
 // Import Swiper React components
-import { SwiperSlide } from "swiper/react";
 import { AiOutlineLike } from "react-icons/ai";
 import { FaCommentAlt, FaRegCommentAlt } from "react-icons/fa";
 import { TbShare3 } from "react-icons/tb";
@@ -11,12 +10,14 @@ import book_2 from "../../public/freak_book1.webp";
 
 import { useState } from "react";
 
-// react-id-swiper
-import Swiper from "react-id-swiper";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
-// import "swiper/css/swiper.css";
-import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+// import required modules
+import { FreeMode, Pagination } from "swiper/modules";
 import "./Shares.css";
 
 const SharesVariants = {
@@ -35,23 +36,7 @@ const SharesVariants = {
   },
 };
 
-//slider config options
-
-const HeroSliderConfigs = {
-  containerClass: "swiper-container hero-slider",
-  parallax: true,
-  centeredSlides: true,
-  speed: 500,
-  spaceBetween: 0,
-  effect: "slide",
-};
-
-//slider component
 const Shares = () => {
-  const [parallaxSwiper, setParallaxSwiper] = useState(null);
-  const parallaxAmount = parallaxSwiper ? parallaxSwiper.width * 0.95 : 0;
-  const parallaxOpacity = 0.5;
-
   return (
     <div className="mt-[4rem] sm:mt-[0rem] mb-[3rem]" id="shares">
       <div className=" w-[100vw] flex flex-row justify-end text-[3.5rem] pr-[2rem] leading-[4rem] mb-[2rem] sm:leading-normal sm:mb-[0rem] text-[4rem] top-[2.5rem] sm:text-[5rem] lg:text-[7rem] 5rem] xl:text-[9.5rem] 2xl:text-[10rem] tracking-tighter text-[#111]">
@@ -68,14 +53,18 @@ const Shares = () => {
           <div className="absolute w-full h-[1.2rem] top-[65%] bg-[#8FFF00] z-10"></div>
         </div>
       </div>
-      <Swiper {...HeroSliderConfigs} getSwiper={setParallaxSwiper}>
-        {/* 1 */}
-        <div className="hero-slide sm:h-[100vh] max-h-[1100px] pb-[2rem] md:pb-[0rem]">
-          <div
-            className="h-[50vh] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center"
-            data-swiper-parallax={parallaxAmount}
-            data-swiper-parallax-opacity={parallaxOpacity}
-          >
+      <Swiper
+        spaceBetween={40}
+        freeMode={true}
+        loop={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[FreeMode, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <div className="h-[40%] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
             <img
               src={book_1}
               alt="image1"
@@ -141,25 +130,21 @@ const Shares = () => {
               </span>
             </div>
           </div>
-        </div>
-        <div className="hero-slide sm:h-[100vh] max-h-[1100px] pb-[2rem] md:pb-[0rem]">
-          <div
-            className="h-[50vh] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center"
-            data-swiper-parallax={parallaxAmount}
-            data-swiper-parallax-opacity={parallaxOpacity}
-          >
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[40%] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
             <img
               src={article_1}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%]  xl:w-[50%] pr-[2rem]">
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
             <a
               target="_blank"
               rel="noreferrer"
               className="hover:text-[#559602]"
-              href="https://www.wired.com/story/sperm-death-sex-bioethics-conception/"
+              href="https://www.goodreads.com/en/book/show/54895704"
             >
               Let People Collect Sperm From the Dead - Catriona Morton
             </a>
@@ -211,25 +196,21 @@ const Shares = () => {
               </span>
             </div>
           </div>
-        </div>
-        <div className="hero-slide sm:h-[100vh] max-h-[1100px] pb-[2rem] md:pb-[0rem]">
-          <div
-            className="h-[50vh] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center"
-            data-swiper-parallax={parallaxAmount}
-            data-swiper-parallax-opacity={parallaxOpacity}
-          >
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[40%] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
             <img
               src={book_2}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%]  xl:w-[50%] pr-[2rem]">
+          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
             <a
               target="_blank"
               rel="noreferrer"
               className="hover:text-[#559602]"
-              href="https://quickread.com/book-summary/think-like-a-freak-534"
+              href="https://www.goodreads.com/en/book/show/54895704"
             >
               Think Like A Freak - Steven D. Levitt & Stephen J. Dubner
             </a>
@@ -278,11 +259,11 @@ const Shares = () => {
             </div> */}
             <div className="flex flex-row justify-end">
               <span className="text-[0.7rem] xl:text-[0.8rem]">
-                Posted date: 01/14/2024
+                Posted date: 12/15/2023
               </span>
             </div>
           </div>
-        </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

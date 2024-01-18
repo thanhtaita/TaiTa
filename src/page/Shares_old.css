@@ -1,25 +1,75 @@
-/* .swiper {
-  width: 100%;
-  margin-top: 3rem;
+.swiper {
+  width: 100vw;
+  max-height: 1493px;
+  background-color: #f2f5f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hero-slide {
+  box-shadow: 0 0 1rem #00000033;
+  background-color: #f2f5f3;
+  /* border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem; */
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  overflow: hidden;
+  margin-right: 1rem;
 }
 
 .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 32vw;
-  height: 32vw;
+  width: 90vw;
 }
 
-.swiper-slide .slide-image {
-  -webkit-box-reflect: below -40px linear-gradient(transparent, transparent, #0004);
-  transition: all 0.5s ease-in-out;
+.num-status {
+  margin-left: 0.5rem;
 }
 
-.swiper-slide .slide-image:hover {
-  -webkit-box-reflect: below -40px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0));
+@media only screen and (min-width: 768px) {
+  .swiper-container {
+    width: 70vw;
+  }
+
+  .hero-slide {
+    margin-right: 4rem;
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
-/* .swiper-3d .swiper-slide-shadow-left,
-.swiper-3d .swiper-slide-shadow-right {
-  background: transparent;
-} */ */
+@media only screen and (min-width: 1028px) {
+  .swiper-container {
+    margin-top: -2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .num-status {
+    margin-left: 2px;
+    margin-right: 5px;
+  }
+}
+
+.swiper-pagination {
+  width: 100vw;
+  height: 10rem;
+  background-color: blue;
+  color: white;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+}
