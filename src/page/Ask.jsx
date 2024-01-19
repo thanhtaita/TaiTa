@@ -24,7 +24,7 @@ const Ask = () => {
     <div className="h-full w-full relative">
       <div
         id="ask"
-        className="relative bg-[#F2F5F3] h-full w-full flex flex-col items-center rounded shadow-2xl z-20"
+        className="relative bg-[#F2F5F3] h-full w-full flex flex-col items-center rounded shadow-2xl z-20 hover:translate-y-[-0.25rem] hover:translate-x-[-0.25rem] hover:shadow-3xl transition-all duration-500 ease-in-out"
       >
         <div className="h-[80%] flex flex-col items-center mt-[3rem] mx-[2rem]">
           <div className="uppercase text-[0.7rem] font-['Satoshi-bold'] text-center">

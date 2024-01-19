@@ -27,7 +27,10 @@ const ProjectVariants = {
 
 const Projects = () => {
   return (
-    <div id="projects" className="relative bg-[#f2f5f3] z-20 ">
+    <div
+      id="projects"
+      className="relative bg-[#f2f5f3] z-20 mt-[-3rem] sm:mt-[0rem]"
+    >
       <div className="flex flex-col sm:flex-row xl:gap-4">
         <motion.div
           initial="offscreen"

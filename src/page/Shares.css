@@ -18,6 +18,11 @@
 
   height: 850px !important;
   margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-slide:hover {
+  box-shadow: 0 1rem 3rem #00000033;
 }
 
 @media only screen and (min-width: 768px) {

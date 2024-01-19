@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="relative pb-[5rem] md:pb-[0rem] md:h-screen md:w-screen bg-[#f2f5f3]"
+      className="mt-[-5rem] sm:mt-[0rem] relative pb-[5rem] md:pb-[0rem] md:h-screen md:w-screen bg-[#f2f5f3]"
     >
       <motion.div
         initial="offscreen"

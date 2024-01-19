@@ -38,7 +38,7 @@ const SharesVariants = {
 
 const Shares = () => {
   return (
-    <div className="mt-[4rem] sm:mt-[0rem] mb-[3rem]" id="shares">
+    <div className="mt-[1rem] sm:mt-[0rem] mb-[3rem]" id="shares">
       <div className=" w-[100vw] flex flex-row justify-end text-[3.5rem] pr-[2rem] leading-[4rem] mb-[2rem] sm:leading-normal sm:mb-[0rem] text-[4rem] top-[2.5rem] sm:text-[5rem] lg:text-[7rem] 5rem] xl:text-[9.5rem] 2xl:text-[10rem] tracking-tighter text-[#111]">
         <div className="relative text-right w-[100%] sm:w-[75%] ">
           <motion.div
@@ -75,7 +75,7 @@ const Shares = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#559602]"
+              className="hover:underline"
               href="https://www.goodreads.com/en/book/show/54895704"
             >
               Remember - Lisa Genova
@@ -143,7 +143,7 @@ const Shares = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#559602]"
+              className="hover:underline"
               href="https://www.goodreads.com/en/book/show/54895704"
             >
               Let People Collect Sperm From the Dead - Catriona Morton
@@ -209,7 +209,7 @@ const Shares = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#559602]"
+              className="hover:underline"
               href="https://www.goodreads.com/en/book/show/54895704"
             >
               Think Like A Freak - Steven D. Levitt & Stephen J. Dubner
