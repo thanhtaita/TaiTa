@@ -64,14 +64,14 @@ const Shares = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="h-[40%] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
+          <div className="h-[40vh] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
             <img
               src={book_1}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
+          <div className="pb-[2rem] text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
             <a
               target="_blank"
               rel="noreferrer"
@@ -132,14 +132,14 @@ const Shares = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[40%] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
+          <div className="h-[40vh] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
             <img
               src={article_1}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
+          <div className="pb-[2rem] text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
             <a
               target="_blank"
               rel="noreferrer"
@@ -198,14 +198,14 @@ const Shares = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="h-[40%] sm:h-[50%] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
+          <div className="h-[40vh] w-[100%] md:h-[100%] md:w-[50%] flex flex-col justify-center">
             <img
               src={book_2}
               alt="image1"
               className="object-cover object-center w-full h-full"
             />
           </div>
-          <div className="text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
+          <div className="pb-[2rem] text-[1.5rem] xl:text-[1.8rem] text-[#111] z-50 w-[90%] sm:w-[70%] xl:w-[50%] pr-[2rem]">
             <a
               target="_blank"
               rel="noreferrer"
