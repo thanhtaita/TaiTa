@@ -70,6 +70,8 @@ const Projects = () => {
             </span>
             <a
               href="https://play-scavenger-hunt.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Site
@@ -91,6 +93,8 @@ const Projects = () => {
             </span>
             <a
               href="https://github.com/thanhtaita/HealthSystem"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Github
@@ -112,6 +116,8 @@ const Projects = () => {
             </span>
             <a
               href="https://github.com/thanhtaita/MaybeYouLike"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Github
@@ -133,6 +139,8 @@ const Projects = () => {
             </span>
             <a
               href="https://studyspot-pi.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Site
@@ -156,6 +164,8 @@ const Projects = () => {
             </span>
             <a
               href="https://github.com/thanhtaita/MindMove"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Github
@@ -177,6 +187,8 @@ const Projects = () => {
             </span>
             <a
               href="https://thanhtaita.github.io/Ikigai/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Site
@@ -199,6 +211,8 @@ const Projects = () => {
             </span>
             <a
               href="https://github.com/thanhtaita/CrashVisualization/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Github
@@ -224,6 +238,8 @@ const Projects = () => {
             </span>
             <a
               href="https://github.com/thanhtaita/theUni/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline opacity-0 transition-all duration-500 group-hover:transition-all group-hover:duration-500 group-hover:opacity-90 text-[#8FFF00] text-[0.8rem] text-[1.2rem]"
             >
               Visit Github
