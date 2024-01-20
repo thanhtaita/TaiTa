@@ -68,7 +68,7 @@ const Landing = () => {
           <div></div>
           <div></div>
           <a
-            href="https://drive.google.com/file/d/1aYRxYmTTTjLBairgDDoDDxw6aGWktf8Z/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dDOgDeq_By349sa-l8qighgH3I7r0uYn/view"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center text-[1rem] md:text-[1.2rem] xl:text-[1.5rem] tracking-tight relative overflow-hidden transition-all duration-500 before:absolute before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-transparent before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full hover:before:bg-black pl-[0.5rem]"
