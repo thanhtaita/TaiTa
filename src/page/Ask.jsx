@@ -34,6 +34,7 @@ const Ask = () => {
       console.log("contact added!");
       setUserComment("");
       setUserEmail("");
+      generateNewQuestion();
     } catch (e) {
       console.error("Error adding document: ", e);
     }
@@ -55,6 +56,15 @@ const Ask = () => {
     setIsOpened(false);
   };
 
+  const generateNewQuestion = () => {
+    const temp = questionNum;
+    let newNum = Math.floor(Math.random() * Questions.length);
+    while (newNum === temp) {
+      newNum = Math.min(0, Math.floor(Math.random() * Questions.length));
+    }
+    setQuestionNum(newNum);
+  };
+
   // Additional Tailwind classes for animation
   const buttonClasses = isOpened ? "-translate-y-10" : "translate-y-0";
 
@@ -64,24 +74,13 @@ const Ask = () => {
         id="ask"
         className="relative bg-[#F2F5F3] h-[40vh] sm:h-[60vh] w-full flex flex-col items-center rounded shadow-2xl z-20 hover:translate-y-[-0.25rem] hover:translate-x-[-0.25rem] hover:shadow-3xl transition-all duration-500 ease-in-out"
       >
-        <div className="h-[80%] md:h-[60%] flex flex-col items-center mt-[3rem] mx-[2rem]">
-          <div className="flex flex-row gap-[0.1rem] w-[80%] relative">
+        <div className="h-[80%] md:h-[60%] w-[90%] flex flex-col items-center mt-[3rem] mx-[2rem]">
+          <div className="flex flex-row gap-[0.1rem] w-[80%] relative justify-center">
             <div className="uppercase text-[0.7rem] font-['Satoshi-bold'] text-center">
               <MdOutlineChangeCircle
-                className="cursor-pointer transition-all duration-300 ease-in-out transform rotate-0 hover:rotate-90 absolute top-[0rem] left-[-1rem] z-10"
+                className="cursor-pointer transition-all duration-300 ease-in-out transform rotate-0 hover:rotate-90 absolute top-[0rem] left-[-1.4rem] z-10"
                 size={17}
-                onClick={() => {
-                  console.log(questionNum);
-                  const temp = questionNum;
-                  let newNum = Math.floor(Math.random() * Questions.length);
-                  while (newNum === temp) {
-                    newNum = Math.min(
-                      0,
-                      Math.floor(Math.random() * Questions.length)
-                    );
-                  }
-                  setQuestionNum(newNum);
-                }}
+                onClick={generateNewQuestion}
               />
               {Questions[questionNum]}
             </div>
